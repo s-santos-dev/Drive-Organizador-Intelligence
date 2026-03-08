@@ -1,0 +1,30 @@
+# Arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de credenciais e tokens (não commitar!)
+credentials.json
+token.json
+
+# Logs e arquivos temporários
+*.log
+temp/
+tmp/
+
+# Ambiente virtual (se criado localmente)
+venv/
+env/
+.venv/
+.env/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
