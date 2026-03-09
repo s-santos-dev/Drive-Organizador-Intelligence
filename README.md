@@ -1,4 +1,4 @@
-# Drive Organizador 📚
+# Drive Organizador Intelligence 📚
 
 Script Python para organizar automaticamente livros em um Google Drive, classificando-os por categoria e linguagem de programação.
 
@@ -27,18 +27,9 @@ python -m pip install -r requirements.txt
 
 ## Uso
 
-Execute o script com o ID, link de pasta ou link de arquivo no Drive:
+Execute o script
 
-```bash
-python organiza_livros.py --source <ID_ou_LINK>
-```
-
-**Exemplos:**
-- Com ID de pasta: `python organiza_livros.py --source 1-0wv3lvonEGX62DwVw50rU6EikVQa9av`
-- Com link de pasta: `python organiza_livros.py --source "https://drive.google.com/drive/folders/1a2B3cD4e5F6g7H8I9J0"`
-- Com link de arquivo: `python organiza_livros.py --source "https://drive.google.com/file/d/ID_DO_ARQUIVO/view"`
-
-Se não passar o `--source`, o script abrirá o Google Drive no navegador e pedirá o link interativamente.
+"python organiza_livros.py"
 
 ### Primeira Execução
 - Na primeira execução, um navegador abrirá pedindo autorização para acessar o Google Drive.
@@ -140,7 +131,7 @@ Instaladas via `requirements.txt`.
 
 ## Contato
 
-Se tiver problemas ou sugestões, entre em contato! 📧
+Se tiver problemas ou sugestões, entre em contato!📧
 
 ---
 
