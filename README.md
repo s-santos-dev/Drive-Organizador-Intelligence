@@ -46,7 +46,7 @@ Para usar outra conta do Google (ex: com mais espaço):
 Remove-Item token.json
 # No Linux/Mac:
 rm token.json
-python organiza_livros.py --source <PASTA_ORIGEM_ID>
+python organiza_livros.py
 ```
 
 ## Estrutura de Pastas Criada
